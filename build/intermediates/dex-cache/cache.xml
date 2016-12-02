@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_397293e0c6808c95e2a79ff074281f30cd6a41f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_27a17b42a05e9eaedc8e8f0b04d4bdc03883ae1f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_9e63f7970ddeb382243839fb4a74813f9c25a3d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_b9e5911fdf37acbdb8bfcf8184bc1f7955c2a9e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_bb4a57b3833794f0866f8cd6890aedd38b10c0ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_87680312e0d5bff8f49960160a1290ea300a9379\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_4810da56748a9ecf1fcef1e7d35a86ffa54d5a78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="242a450196d1e07d1f3a0c59409b4c18334cf39a">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6bf9ae55187b9da10d7507137cf249bd4ac3278f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_f560f5d207976595d87bf650e694b8a0d275ef59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_91200901cfcb471c5a7ae4b4b735377a00e6920b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c374ee37bce21925574d71cc5b4f15b8a9a408ac">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9a14c59133211cc88bb42b9738b6ec9c27c13d17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_6912c886ab458da2642eb52617e30f9369dcce83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_ee56e6b3fa862ad1fe725163a85ba17991244371\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_45220f8f8f12246f3a1e52616eb6171d6c530dfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_48dfaa04a0b14757d7dd61014680e95565a15d7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_04f3c95012338e2b8195655eb7b79329af39c1e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\Ash\AndroidStudioProjects\GPSPing2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_66e174377abb48eeee3d2d87dbcccf70aaad524a\classes.dex" />
+    </item>
+
+</items>
