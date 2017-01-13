@@ -542,7 +542,7 @@ int id alertTitle 0x7f0b0033
 int id always 0x7f0b001d
 int id beginning 0x7f0b001a
 int id bottom 0x7f0b0022
-int id button 0x7f0b0059
+int id button 0x7f0b005a
 int id buttonPanel 0x7f0b002e
 int id cancel_action 0x7f0b005f
 int id checkbox 0x7f0b003c
@@ -554,7 +554,7 @@ int id customPanel 0x7f0b0039
 int id decor_content_parent 0x7f0b0043
 int id default_activity_button 0x7f0b002a
 int id disableHome 0x7f0b000c
-int id display 0x7f0b005a
+int id display 0x7f0b0059
 int id edit_query 0x7f0b0047
 int id end 0x7f0b001b
 int id end_padder 0x7f0b0071

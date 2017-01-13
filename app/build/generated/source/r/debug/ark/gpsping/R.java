@@ -1835,7 +1835,7 @@ containing a value of this type.
         public static final int always=0x7f0b001d;
         public static final int beginning=0x7f0b001a;
         public static final int bottom=0x7f0b0022;
-        public static final int button=0x7f0b0059;
+        public static final int button=0x7f0b005a;
         public static final int buttonPanel=0x7f0b002e;
         public static final int cancel_action=0x7f0b005f;
         public static final int checkbox=0x7f0b003c;
@@ -1847,7 +1847,7 @@ containing a value of this type.
         public static final int decor_content_parent=0x7f0b0043;
         public static final int default_activity_button=0x7f0b002a;
         public static final int disableHome=0x7f0b000c;
-        public static final int display=0x7f0b005a;
+        public static final int display=0x7f0b0059;
         public static final int edit_query=0x7f0b0047;
         public static final int end=0x7f0b001b;
         public static final int end_padder=0x7f0b0071;

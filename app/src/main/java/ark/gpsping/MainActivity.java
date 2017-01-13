@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             // TODO: Consider calling
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, 1);
         }
-        //locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 1, this);
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 1, this);
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
         locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, this);
 
@@ -63,22 +63,21 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         set.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                    // TODO: Consider calling
+                if (ActivityCompat.checkSelfPermission(MainActivity.this,
+                        Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(MainActivity.this,
+                        Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                     ActivityCompat.requestPermissions(MainActivity.this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, 1);
                 }
                 host = IP.getText().toString();
                 socket = Integer.parseInt(port.getText().toString());
                 Client c = new Client(getApplicationContext(), host, socket);
                 try {
-                    b = c.execute().get();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                } catch (ExecutionException e) {
+                   b = c.execute().get();
+                } catch (InterruptedException | ExecutionException e) {
                     e.printStackTrace();
                 }
                 try {
-                    publish(locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER));
+                    publish(locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -88,26 +87,32 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     }
 
     void publish(Location location) throws IOException {
-        String loca = Double.toString(location.getLatitude());
-        loca = loca + "," + Double.toString(location.getLongitude());
-        //Toast.makeText(MainActivity.this, loca, Toast.LENGTH_SHORT).show();
-        if(b!=null) {
-            ready = true;
-            b.write(loca);
-            b.flush();
+        try {
+
+            String loca = Double.toString(location.getLatitude());
+            loca = loca + "," + Double.toString(location.getLongitude());
+            //Toast.makeText(MainActivity.this, loca, Toast.LENGTH_SHORT).show();
+            if (b != null) {
+                ready = true;
+                b.write(loca);
+                b.flush();
+            }
+            display.setText(loca);
+        }catch (Exception e){
+            Toast.makeText(MainActivity.this, "Unable to publish data", Toast.LENGTH_SHORT).show();
         }
-        display.setText(loca);
     }
     @Override
     public void onLocationChanged(Location location) {
-       // Toast.makeText(MainActivity.this, "LocChange", Toast.LENGTH_SHORT).show();
-        if (b != null) {
+       // Toast.makeText(MainActivity.this, Double.toString(location.getLatitude()), Toast.LENGTH_SHORT).show();
+       // if (b != null) {
             try {
                 publish(location);
+                //display.setText(Double.toString(location.getLatitude()));
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        }
+       // }
     }
 
     @Override
